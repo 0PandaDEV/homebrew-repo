@@ -4,7 +4,7 @@ cask "vleer@beta" do
 
   url "https://github.com/Vleerapp/Vleer/releases/download/v#{version}/Vleer_#{version}_aarch64.dmg"
   name "Vleer"
-  desc "A music app from the future"
+  desc "Music app from the future"
   homepage "https://github.com/Vleerapp/Vleer"
 
   app "Vleer.app"
