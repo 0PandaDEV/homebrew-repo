@@ -3,5 +3,5 @@
 ### Vleer
 ```zsh
 brew tap 0PandaDEV/repo
-brew install --cask vleer@beta
+brew install --cask vleer
 ```
