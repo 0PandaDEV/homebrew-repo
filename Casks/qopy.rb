@@ -1,12 +1,12 @@
 cask "qopy" do
-  version "0.2.0"
+  version "0.3.0"
 
   if Hardware::CPU.intel?
     url "https://github.com/0pandadev/Qopy/releases/download/v#{version}/Qopy-#{version}_intel.dmg"
-    sha256 "2fcc9ab151ca0d1e1192e0ecef22e5c478d20fb8f5dc1a25886828743b212f30"
+    sha256 "f16d777622a6d8391888a83a21040aa58f2ab4844325f683ae165b4bc7051dfb"
   else
     url "https://github.com/0pandadev/Qopy/releases/download/v#{version}/Qopy-#{version}_silicon.dmg"
-    sha256 "160274a3269603b926f11f62ed67ee4978f2592863a9d4e4c7c58c6945ddf066"
+    sha256 "3ee5284ba2c6e9f477fa3cfc7a5fbfb6f9dfe99a1f40f86b65c2a117ba4e8caf"
   end
   
   name "Qopy"
